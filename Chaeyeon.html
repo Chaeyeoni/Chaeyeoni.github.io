@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/Chaeyeon.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">채연's Travel</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Sangyoon.html">Sangyoon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ChaeYeon.html">ChaeYeon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Taeyun.html">Taeyun</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/chaeyeonphoto/taiwan1.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Taiwan</h1>
+              <h2 class="subheading">The Heart of Asia</h2>
+              <span class="meta">Posted by
+                <a href="#">Chaeyeon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+        <article>
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+  
+  <!--위치-->
+           <h2 class="section-heading">1. 위치</h2>
+           
+            <div id="map"></div>
+            <script>
+              function initMap() {
+                var uluru = {lat: 23.7, lng: 121};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 7,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKlbhyYGnwHe7OLIbZSe2rFMTVU0oT0os&callback=initMap">
+            </script>
+            
+             <p> 타이완해협을 사이에 두고 중국 푸젠성과 마주하고 있는 나라로 중국 본토에서 약 150㎞ 떨어져 있다. 1885년 하나의 성(省)으로 독립하였고, 청일전쟁 뒤 일본 최초의 해외 식민지가 되었으며, 1949년 중국공산당과의 내전에 패배한 국민당의 장제스 정권이 이전해 와 성립된 국가이다.</p>
+
+  <!--명소-->
+           <h2 class="section-heading">2. 명소</h2>
+           
+           <h5> (1) 스펀 </h5>
+           <img class="img-fulid" src="img/chaeyeonphoto/taiwan3.jpg" style="height:400px" alt=""></img>
+           <p>철도를 중심으로 양쪽에 건물들이 늘어져 있어 철도가 마을 중심을 가로지르는 특이한 지형을 가지고 있다. 이 철도는 1시간에 한 대 지나가는 핑시선 이외에는 기차가 다니지 않아 관광지로 사용된다.
+
+그 시절, 우리가 좋아했던 소녀에서 커징텅과 션자이가 천등을 날린 장소이다. 또한 꽃보다 할배/대만 편 마지막 화에서 신구와 이서진이 천등을 날린 장소이다.</p>
+           <h5> (2) 예류 </h5>
+           <img class="img-fulid" src="img/chaeyeonphoto/taiwan4.jpg" style="height:600px" alt=""></img>
+           <p>다양한 자연 지형을 한 곳에서 맛 볼 수 있다는 것인데, 특히 대표적으로 윗쪽의 사암형질이 침식에 견뎌내고 아랫쪽의 암층이 바닷바람 등의 요인으로 침식하여 만들어지는 버섯바위, 해수의 염분으로 인해 끊임없이 풍해되어 만들어지는 벌집바위가 곳곳에서 관찰된다.</p>
+           <h5> (3) 지우펀 </h5>
+           <img class="img-fulid" src="img/chaeyeonphoto/taiwan5.jpg" style="height:400px" alt=""></img>
+            <p>1920~30년대에는 금광 채굴로 번영하던 도시였으나 광산이 폐광된 이후로 한적한 시골 마을로 전락했다. 하지만 1989년 영화 비정성시의 촬영지로 유명세를 얻어 현재는 관광 산업으로 활기를 되찾았다.
+대한민국에서는 드라마 온에어와 꽃보다 할배의 촬영지로 유명하다. 또한 일본 애니메이션 센과 치히로의 행방불명의 배경지로 홍보되면서 유명세를 탔지만 정작 미야자키 하야오는 공식적으로 부인했다. 그리고 일본에 더 비슷하게 생긴 온천장들이 다수 존재하므로 신빙성이 부족하다. 다만 모티브 중의 하나로 활용되었을 여지는 있다.</p>
+            
+          
+
+  <!--음식-->
+        <h2 class="section-heading">3.Food </h2>
+        <img class="img-fulid" src="img/chaeyeonphoto/food1.png" style="height:300px" alt=""></img>
+        <img class="img-fulid" src="img/chaeyeonphoto/food2.jpg" style="height:300px" alt=""></img>
+        <img class="img-fulid" src="img/chaeyeonphoto/food3.jpg" style="height:300px" alt=""></img>
+            <h2 class="section-heading">Reaching for the Stars</h2>
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
